@@ -93,7 +93,7 @@ void viewAllUsers() {
     }
 }
 
-void deleteUserById() {
+void deleteUserById() { // delete user by name and check for password
     viewAllUsers();
     int id;
     std::cout << "\nEnter the ID of the user to delete: ";
